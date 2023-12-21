@@ -11,6 +11,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* css for the whole body */
 
 .header {
     padding: 20px;
@@ -65,7 +66,7 @@ p {
     background-position: center;
 }
 
-/* class hero contains the image */
+/* class hero contains the image and it's styling*/
 
 .float-left {
     float: left;
@@ -85,7 +86,7 @@ p {
     margin-left: 20px;
 }
 
-/* a division named class content contains SEO, ORM, SMM divisions respectievely as block divisions */
+/* a division named class content contains SEO, ORM, SMM divisions respectievely as block divisions and their properties are being set over here*/
 
 .benefits {
     margin-right: 20px;
@@ -98,7 +99,7 @@ p {
     background-color: #2589bd;
 }
 
-/* css styling for whole benefits */
+/* css styling for whole benefits division and this is it's styling */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -115,7 +116,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* css styling for benefits lead */
+/* css styling for benefits lead's division, heading and image */
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -133,7 +134,7 @@ p {
     max-width: 150px;
 }
 
-/* css styling for benefits brand */
+/* css styling for benefits brand's division, heading and image */
 
 .benefit-cost {
     margin-bottom: 32px;
@@ -151,7 +152,7 @@ p {
     max-width: 150px;
 }
 
-/* css styling for benefits cost */
+/* css styling for benefits cost's division, heading and image */
 
 /* these are used for the placement of that divisions on the right hand side of the webpages which is actually contained in a division class named benefits */
 
