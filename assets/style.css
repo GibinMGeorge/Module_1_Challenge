@@ -50,6 +50,8 @@ a {
     text-decoration: none;
 }
 
+/* upto here for header navigation bar */
+
 p {
     font-size: 16px;
 }
@@ -63,6 +65,8 @@ p {
     background-position: center;
 }
 
+/* class hero contains the image */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,11 +77,15 @@ p {
     margin-left: 25px;
 }
 
+/* float left and right is used to position the images accordingly in the division */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* a division named class content contains SEO, ORM, SMM divisions respectievely as block divisions */
 
 .benefits {
     margin-right: 20px;
@@ -90,17 +98,9 @@ p {
     background-color: #2589bd;
 }
 
+/* css styling for whole benefits */
+
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -110,20 +110,21 @@ p {
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* css styling for benefits lead */
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-brand img {
@@ -132,31 +133,29 @@ p {
     max-width: 150px;
 }
 
+/* css styling for benefits brand */
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* css styling for benefits cost */
+
+/* these are used for the placement of that divisions on the right hand side of the webpages which is actually contained in a division class named benefits */
+
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -169,28 +168,50 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* css styling for SEO division */
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* css styling for ORM division */
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* css styling for SMM division */
 
 .footer {
     padding: 30px;
@@ -202,3 +223,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* css styling for footer */
