@@ -22,3 +22,14 @@ CSS file is properly commented.
 * The URL of the deployed application - 
 
 * The URL of the GitHub repository - https://github.com/GibinMGeorge/Module_1_Challenge
+
+
+screenshots - 
+
+![Home screen ](assets/S1.png)
+
+
+![When Clicked on Search Engine Optimization](assets/S2.png)
+
+
+![When Clicked Social Media Marketing](assets/S3.png)
