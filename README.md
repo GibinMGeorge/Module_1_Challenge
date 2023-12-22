@@ -19,7 +19,7 @@ CSS file is properly commented.
 
 
 
-* The URL of the deployed application - 
+* The URL of the deployed application - https://gibinmgeorge.github.io/Module_1_Challenge/
 
 * The URL of the GitHub repository - https://github.com/GibinMGeorge/Module_1_Challenge
 
